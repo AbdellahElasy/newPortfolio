@@ -1,5 +1,33 @@
-h1{
+:root{
+--primaryColor: red;
+--secondaryColor: #FBEAFF;
+--lightColor:#FFFFFF;
+--bgColor-1 : #000000;
+--bgColor-2: #000000;
+--padding: 8%;
+}
 
-    text-align: center;
-    color: blue;
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    color: var(--lightColor);
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bgColor-1);
+}
+span{
+    color :var(--primaryColor);
+}
+h2{
+    font-size: 2.2rem;
+    letter-spacing: 0.12rem;
+    cursor: pointer;
 }
