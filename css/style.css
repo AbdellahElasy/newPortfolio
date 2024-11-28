@@ -79,6 +79,7 @@ flex-grow: 1;
 padding: 0 var(--padding);
 display: flex;
 align-items: center;
+justify-content: space-between;
 }
 .conteiner-text{
     position: relative;
@@ -106,7 +107,28 @@ h4{
 .social img {
     margin-right: 2rem;
     width: 2.5rem;
+    transition: 0.4s;
 }
 .social img:hover{
     transform: scale(1.3);
+}
+.container-images{
+    width: 40%;
+    height: 90%;
+    position: relative;
+    image-resolution: 10%;
+    align-self: flex-end;
+}
+.container-images img{
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: left 1s;
+}
+.container-images:hover .mypic{
+    left: 40%;
+
+
 }
