@@ -190,3 +190,48 @@ h5{
     margin: 2rem;
 
 }
+.skills {
+    background-color: rgb(19, 19, 191);
+    padding: var(--padding); 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.skills .container-images {
+    width: 40%;
+}
+.skills .container-images img{
+    width: 90%;
+}
+.skills .conteiner-skills{
+    width: 50%;
+}
+.content-skills{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+}
+
+.conteiner-skills .content-skills .skill{
+    width: 100px;
+    height: 100px; 
+    background-color: var(--bgColor-2);
+    border-radius: 50%;
+    margin: 0 2rem 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skill img{
+    width: 80%;
+}
+footer{
+    padding: 2rem var(--padding);
+    background-color: rgb(30, 30, 45);
+}
+footer .content-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
